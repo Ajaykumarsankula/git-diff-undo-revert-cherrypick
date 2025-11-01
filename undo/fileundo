@@ -7,4 +7,4 @@ git reset --hard HEAD~1
 git revert <commit-hash> Undo a commit that’s already pushed  (the safe way) 
 ex : 4commits if u want to del top 3 just give 1st command revert   new commit will come proff of revert
 
-git revert <revert commit-hash>  the del commit (content) will restore 
+git revert <revert commit-hash>  the del commit (content) will restore jjj
