@@ -6,4 +6,6 @@
 # such as `git diff main feature-branch` or `git diff HEAD~1 HEAD`. This command is especially helpful for reviewing edits,
 # debugging issues, or understanding how your code has evolved over time. In short,
 # `git diff` is an essential tool for inspecting changes before you commit or push them to a remote repository.
-# `git diff` is an essential tool for inspecting changes before you commit or push them to a remote repository.
+# ` isgit diff` 
+# an essential tool for inspecting changes
+before you commit or push them to a remote repository.
