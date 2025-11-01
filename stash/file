@@ -1,0 +1,21 @@
+Command	Description
+git stash	Save staged + unstaged changes
+git stash -u	Also stash untracked files
+git stash list	Show all stashes
+git stash apply	Reapply latest stash (keep it)
+git stash pop	Reapply latest stash (remove it)
+git stash drop stash@{n}	Delete a specific stash
+git stash clear	Delete all stashes
+git stash push -m "msg"	Save stash with message
+git stash branch <branch>	Create a branch from a stash
+
+
+
+Command	What it does
+git stash	Save tracked changes and clean working directory
+git stash -u	Also include untracked files
+git stash list	Show saved stashes
+git stash apply	Reapply last stash, keep it
+git stash pop	Reapply last stash, remove it
+git stash drop	Delete one stash
+git stash clear	Delete all stashes

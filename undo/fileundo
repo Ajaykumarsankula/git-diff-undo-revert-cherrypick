@@ -1,0 +1,10 @@
+git restore <file>  This restores the file to match the last commit (discards your local edits).
+git restore --staged <file> If you’ve already run git add but haven’t committed yet you can go back one step
+git reset --soft HEAD~1
+git reset --mixed HEAD~1
+git reset --hard HEAD~1
+
+git revert <commit-hash> Undo a commit that’s already pushed  (the safe way) 
+ex : 4commits if u want to del top 3 just give 1st command revert   new commit will come proff of revert
+
+git revert <revert commit-hash>  the del commit (content) will restore 

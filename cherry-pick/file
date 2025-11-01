@@ -1,0 +1,11 @@
+git cherry-pick <commit-hash>
+Git applies the changes from that commit on top of your current branch.
+
+If there are no conflicts, a new commit is created automatically.
+When to use cherry-pick
+
+You want a specific fix from another branch without merging the entire branch.
+
+Backporting a commit to a release branch.
+
+Picking bug fixes selectively from a feature branch.
