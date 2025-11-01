@@ -11,3 +11,4 @@
 before you commit or push them to a remote repository.
 an essential tool for inspecting changes
 before you commit or push them to a remote repository.
+commit-4 
