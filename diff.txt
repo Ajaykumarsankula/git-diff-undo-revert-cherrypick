@@ -1,3 +1,16 @@
+git diff	Working directory ↔ Staging area	Unstaged changes
+
+git diff --staged (or --cached)	Staging area ↔ Last commit	Staged but uncommitted changes
+
+git diff origin/main: compares your current branch with origin/main.
+
+git diff main origin/main: compares your local main with the remote main
+
+
+
+
+
+
 # `git diff` is a Git command used to display the differences between two states of your project. 
 # It lets you see what has changed in your code — line by line — before committing those changes. 
 # When you run `git diff` without options, it shows the unstaged modifications in your working directory compared to the last committed version.
@@ -12,3 +25,8 @@ before you commit or push them to a remote repository.
 an essential tool for inspecting changes
 before you commit or push them to a remote repository.
 commit-4 + comit -4 commit -5 commit-6
+Command	Compares	Shows
+git diff	Working directory ↔ Staging area	Unstaged changes
+git diff --staged (or --cached)	Staging area ↔ Last commit	Staged but uncommitted changes
+git diff origin/main: compares your current branch with origin/main.
+git diff main origin/main: compares your local main with the remote main
